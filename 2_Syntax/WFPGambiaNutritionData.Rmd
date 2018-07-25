@@ -1,0 +1,126 @@
+---
+title: "WFP Gambia"
+subtitle: "Nutrition Screening Data Analysis"
+author: " "
+date: "24 July 2018"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r message=FALSE, warning = FALSE, echo = FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, fig.width = 12, fig.height = 4)
+```
+---
+## Descriptive Statistics: Age group, Gender, District of Screened Children
+From 2014 - 2018, 67,329 children have been screened in 25 Districts.  
+.center[![bar0](./bar0.png)]
+---
+## Number of SAM and MAM cases by District
+.center[![bar1](./bar1.png)]
+---
+## Number of SAM and MAM cases by District: Under 2s
+.center[![map1_2](./map1_2.png)]
+---
+## Number of SAM and MAM cases by District: Over 2s
+.center[![map1_5](./map1_5.png)]
+---
+## Proportion of SAM and MAM cases by District
+.center[![bar2](./bar2.png)]
+---
+## Proportion of SAM and MAM cases by District: Under 2s
+.center[![map2_2](./map2_2.png)]
+---
+## Proportion of SAM and MAM cases by District: Over 2s
+.center[![map2_5](./map2_5.png)]
+---
+## Number of children who recived vitamin A by District
+.center[![bar3](./bar3.png)]
+---
+## Number of children who recived vitamin A by District: Under 2s
+.center[![map3_2](./map3_2.png)]
+---
+## Number of children who recived vitamin A by District: Over 2s
+.center[![map3_5](./map3_5.png)]
+---
+## Proportion of children who recieved vitamin A by District
+.center[![bar4](./bar4.png)]
+---
+## Proportion of children who recieved vitamin A by District: Under 2s
+.center[![map4_2](./map4_2.png)]
+---
+## Proportion of children who recieved vitamin A by District: Over 2s
+.center[![map4_5](./map4_5.png)]
+
+---
+## Number of children who recived de-worming medication by District
+.center[![bar5](./bar5.png)]
+---
+## Number of children who recived de-worming medication by District: Under 2s 
+.center[![map5_2](./map5_2.png)]
+---
+## Number of children who recived de-worming medication by District: Over 2s
+.center[![map5_5](./map5_5.png)]
+---
+## Proportion of children who recieved de-worming medication by District
+.center[![bar6](./bar6.png)]
+---
+## Proportion of children who recieved de-worming medication by District: Under 2s 
+.center[![map6_2](./map6_2.png)]
+---
+## Proportion of children who recieved de-worming medication by District: Over 2s
+.center[![map6_5](./map6_5.png)]
+
+---
+## Number of children who had diarrhoea by District
+.center[![bar7](./bar7.png)]
+---
+## Number of children who had diarrhoea by District: Under 2s 
+.center[![map7_2](./map7_2.png)]
+---
+## Number of children who had diarrhoea by District: Over 2s
+.center[![map7_5](./map7_5.png)]
+---
+## Proportion of children who had diarrhoea by District
+.center[![bar8](./bar8.png)]
+---
+## Proportion of children who had diarrhoea by District: Under 2s 
+.center[![map8_2](./map8_2.png)]
+---
+## Proportion of children who had diarrhoea by District: Over 2s
+.center[![map8_5](./map8_5.png)]
+---
+## Number of children with malaria by District
+.center[![bar9](./bar9.png)]
+---
+## Number of children with malaria by District: Under 2s 
+.center[![map9_2](./map9_2.png)]
+---
+## Number of children with malaria by District: Over 2s
+.center[![map9_5](./map9_5.png)]
+---
+## Proportion of children with malaria by District
+.center[![bar10](./bar10.png)]
+---
+## Proportion of children with malaria by District: Under 2s 
+.center[![map10_2](./map10_2.png)]
+---
+## Proportion of children with malaria by District: Over 2s
+.center[![map10_5](./map10_5.png)]
+---
+##correlations: Malnutrition and Diarrhoea by District
+.center[![nutvitagraph3](./nutvitagraph3.png)]
+---
+##correlations: Malnutrition and Malaria by District
+.center[![nutvitagraph4](./nutvitagraph4.png)]
+---
+##correlations: Malnutrition and De-worming by District
+.center[![nutvitagraph2](./nutvitagraph2.png)]
+---
+##correlations: Malnutrition and Vitamin A by District
+.center[![nutvitagraph](./nutvitagraph.png)]
+

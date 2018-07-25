@@ -1,0 +1,121 @@
+---
+title: "WFP Gambia Nutrition Screening Analysis"
+author: ""
+date: "7/25/2018"
+output: powerpoint_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+setwd("C:/Users/william.olander/Desktop/201807_GMB_NutScreening/4_OutputTables")
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+---
+## Methodology
+In _____, 67,329 children were screened in 25 Districts.  
+.center[![bar0](./bar0.png)]
+---
+## Number of SAM and MAM cases by District
+.center[![bar1](./bar1.png)]
+
+---
+## Number of SAM and MAM cases by District: Under 2s
+.center[![map1_2](./map1_2.png)]
+---
+## Number of SAM and MAM cases by District: Over 2s
+.center[![map1_5](./map1_5.png)]
+---
+## Proportion of SAM and MAM cases by District
+.center[![bar2](./bar2.png)]
+---
+## Proportion of SAM and MAM cases by District: Under 2s
+.center[![map2_2](./map2_2.png)]
+---
+## Proportion of SAM and MAM cases by District: Over 2s
+.center[![map2_5](./map2_5.png)]
+---
+## Number of children who recived vitamin A by District
+.center[![bar3](./bar3.png)]
+---
+## Number of children who recived vitamin A by District: Under 2s
+.center[![map3_2](./map3_2.png)]
+---
+## Number of children who recived vitamin A by District: Over 2s
+.center[![map3_5](./map3_5.png)]
+---
+## Proportion of children who recieved vitamin A by District
+.center[![bar4](./bar4.png)]
+---
+## Proportion of children who recieved vitamin A by District: Under 2s
+.center[![map4_2](./map4_2.png)]
+---
+## Proportion of children who recieved vitamin A by District: Over 2s
+.center[![map4_5](./map4_5.png)]
+
+---
+## Number of children who recived de-worming medication by District
+.center[![bar5](./bar5.png)]
+---
+## Number of children who recived de-worming medication by District: Under 2s 
+.center[![map5_2](./map5_2.png)]
+---
+## Number of children who recived de-worming medication by District: Over 2s
+.center[![map5_5](./map5_5.png)]
+---
+## Proportion of children who recieved de-worming medication by District
+.center[![bar6](./bar6.png)]
+---
+## Proportion of children who recieved de-worming medication by District: Under 2s 
+.center[![map6_2](./map6_2.png)]
+---
+## Proportion of children who recieved de-worming medication by District: Over 2s
+.center[![map6_5](./map6_5.png)]
+
+---
+## Number of children who had diarrhoea by District
+.center[![bar7](./bar7.png)]
+---
+## Number of children who had diarrhoea by District: Under 2s 
+.center[![map7_2](./map7_2.png)]
+---
+## Number of children who had diarrhoea by District: Over 2s
+.center[![map7_5](./map7_5.png)]
+---
+## Proportion of children who had diarrhoea by District
+.center[![bar8](./bar8.png)]
+---
+## Proportion of children who had diarrhoea by District: Under 2s 
+.center[![map8_2](./map8_2.png)]
+---
+## Proportion of children who had diarrhoea by District: Over 2s
+.center[![map8_5](./map8_5.png)]
+---
+## Number of children with malaria by District
+.center[![bar9](./bar9.png)]
+---
+## Number of children with malaria by District: Under 2s 
+.center[![map9_2](./map9_2.png)]
+---
+## Number of children with malaria by District: Over 2s
+.center[![map9_5](./map9_5.png)]
+---
+## Proportion of children with malaria by District
+.center[![bar10](./bar10.png)]
+---
+## Proportion of children with malaria by District: Under 2s 
+.center[![map10_2](./map10_2.png)]
+---
+## Proportion of children with malaria by District: Over 2s
+.center[![map10_5](./map10_5.png)]
